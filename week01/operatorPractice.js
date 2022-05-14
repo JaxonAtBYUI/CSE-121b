@@ -1,0 +1,12 @@
+x = 10;
+y = 10;
+z = x + y;
+w = x * y;
+x -= 1;
+string1 = "Hello ";
+string2 = "World!";
+string3 = string1 + string2;
+x += 3;
+x == y;
+x != y;
+0 < x && x < 10;
