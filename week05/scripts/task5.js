@@ -66,7 +66,6 @@ document.getElementById('message2').textContent = message2;
 // - Appends the <h3> element, the two <h4> elements, and the <img> element to the <article> element as children
 // - Appends the <article> element to the HTML element with an ID of temples
 function output(temple) {
-    console.log(temple);
     let article = document.createElement('article');
 
     let tName = document.createElement('h3');
@@ -122,3 +121,4 @@ function sortBy (temples) {
 
 // Step 9: Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
 document.getElementById('sortBy').addEventListener('change', getTemples);
+getTemples();
