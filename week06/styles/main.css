@@ -1,0 +1,27 @@
+body {
+    background: rgb(158, 201, 215);
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+#reviewedJoke {
+    background-color: whitesmoke;
+    width: 90%;
+    border-radius: 6px;
+    margin: 10px auto;
+    padding: 15px;
+}
+button {
+    font-size: 2em;
+}
+textarea {
+    width: 90%;
+    height: 15em;
+}
+#storedReviews article {
+    background-color: whitesmoke;
+    width: 90%;
+    border-radius: 6px;
+    margin: 10px auto;
+    padding: 15px;
+}
