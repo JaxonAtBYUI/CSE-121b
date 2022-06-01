@@ -69,10 +69,9 @@ try {
 catch (exception_var) {
     var list = []
 }
-finally {
-    writeJoke();
-    document.getElementById("newJoke").addEventListener("click", newJoke);
-}
+writeJoke();
+document.getElementById("newJoke").addEventListener("click", newJoke);
+
 
 
 
